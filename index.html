@@ -1,20 +1,16 @@
-<html lang="en" style="">
-  <head></head>
-  <body
-    class="bg-background text-on-background font-body-md antialiased overflow-x-hidden"
-  >
+<!DOCTYPE html>
+<html lang="en">
+  <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>Abhishek Bhanderi | WORLD FINE BIO CHEMICLES</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&family=Inter:wght@400;600&family=Montserrat:wght@600;700&display=block"
+      rel="stylesheet"
+    />
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;family=Montserrat:wght@600;700&amp;display=swap"
-      rel="stylesheet"
-    />
     <script id="tailwind-config">
       tailwind.config = {
         darkMode: "class",
@@ -129,6 +125,10 @@
         },
       };
     </script>
+  </head>
+  <body
+    class="bg-background text-on-background font-body-md antialiased overflow-x-hidden"
+  >
     <style>
       .fade-in-up {
         opacity: 0;
@@ -283,6 +283,16 @@
       .media-lightbox-close:hover {
         transform: scale(1.03);
       }
+      .hero-cta-btn {
+        border-radius: 9999px;
+        font-size: 0.98rem;
+        padding: 14px 28px;
+      }
+      .hero-cta-btn--secondary {
+        border-radius: 9999px;
+        font-size: 0.98rem;
+        padding: 14px 28px;
+      }
     </style>
     <!-- TopNavBar -->
     <nav
@@ -295,7 +305,7 @@
           <a href="index.html" class="flex items-center gap-sm">
             <img
               alt="WORLD FINE BIO CHEMICLES logo"
-              class="h-8 md:h-10"
+              class="h-10 w-10 rounded-full object-cover border-2 border-white/60 shadow-[0_8px_20px_rgba(15,35,27,0.22)] md:h-12 md:w-12"
               src="image.png"
             />
             <span
@@ -306,17 +316,17 @@
         </div>
         <nav class="hidden md:flex items-center gap-lg">
           <a
-            class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-200"
+            class="font-label-caps text-[0.9rem] md:text-[0.94rem] text-on-surface-variant hover:text-primary transition-colors duration-200 bg-[#d8e8d8] text-[#0f231b] font-bold rounded-full shadow-[0_8px_18px_rgba(15,35,27,0.18)] px-4 py-2"
             href="index.html"
             >Overview</a
           >
           <a
-            class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-200"
+            class="font-label-caps text-[0.9rem] md:text-[0.94rem] text-on-surface-variant hover:text-primary transition-colors duration-200"
             href="products.html"
             >Products</a
           >
           <a
-            class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-200"
+            class="font-label-caps text-[0.9rem] md:text-[0.94rem] text-on-surface-variant hover:text-primary transition-colors duration-200"
             href="contact.html"
             >Contact</a
           >
@@ -398,12 +408,12 @@
         </p>
         <div class="flex gap-md justify-center">
           <a
-            class="bg-secondary text-on-secondary px-xl py-md rounded-lg font-label-caps text-label-caps hover:bg-surface-tint transition-all duration-200 hover:-translate-y-[1px] shadow-lg"
+            class="hero-cta-btn bg-secondary text-on-secondary px-xl py-md font-label-caps text-label-caps hover:bg-surface-tint transition-all duration-200 hover:-translate-y-[1px] shadow-lg"
             href="#products"
             >Explore Catalog</a
           >
           <a
-            class="bg-surface/20 text-on-primary border border-on-primary backdrop-blur-sm px-xl py-md rounded-lg font-label-caps text-label-caps hover:bg-surface/40 transition-all duration-200"
+            class="hero-cta-btn hero-cta-btn--secondary bg-surface/20 text-on-primary border border-on-primary backdrop-blur-sm px-xl py-md font-label-caps text-label-caps hover:bg-surface/40 transition-all duration-200"
             href="#about"
             >Request Quotation</a
           >
